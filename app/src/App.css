@@ -1,0 +1,68 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body, html, #root {
+	background-color: #000000;	
+	color: #ffffff;
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	gap: 5vh;
+
+	height: 100%;
+}
+
+textarea {
+	padding: 1vw;
+	border-radius: 5px;
+	background: #464447;
+	color: #e7dfeb;
+
+	resize: none;
+
+	font-family: monospace;
+}
+
+button {
+	background-color: #eee8fa;
+	font-size: 1rem;
+	padding: 1vw;
+
+	border-radius: 5px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:active {
+	  background: #d9d3e6;
+	  box-shadow: inset 0px 0px 5px #c1c1c1;
+	  outline: none;
+}
+
+.labeled-text {
+	display: flex;
+	flex-direction: column;
+
+	gap: 2vh;
+
+	width: 50%;
+}
+
+.input {
+	height: 25vh;
+}
+
+.output {
+	height: 25vh;
+}
+
